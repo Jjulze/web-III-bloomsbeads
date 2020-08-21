@@ -1,0 +1,130 @@
+.nav-item__link {
+    color: white;
+    margin-right: 15px;
+}
+
+.nav-item--remove {
+    display: none;
+}
+
+.nav-main__list {
+   list-style-type: none; 
+   font-weight: var(--weight-regular);
+   font-size: var(--size-b1);
+   font-family: var(--font-head);
+   display: flex;
+   flex-flow: row wrap;
+   padding: 0 0 40px 0;
+   margin: 9px 0 0 20px;
+}
+
+.nav-side__list {
+   margin: 0 0 0 88px;
+   padding: 0;
+   display: flex;
+   flex-flow: row wrap;  
+}
+
+.nav-side__item {
+    margin: 17px 6px 0 6px;
+}
+
+.nav-side__item-link {
+   color: var(--color-cream); 
+   font-weight: var(--weight-regular);
+   font-size: 1.2rem;
+   font-family: var(--font-body);
+}
+
+.nav-side__item {
+   list-style-type: none; 
+}
+
+.nav-social {
+   list-style-type: none;  
+   display: flex;
+   flex-flow: row wrap;
+   margin: 8px 0 5px 198px;
+   padding: 0;
+}
+
+.nav-social__item-image {
+    width: 20px;
+    margin: 0 3px 0 3px;
+}
+
+
+/* Responsive styles */
+
+@media (min-width: 768px) {
+    
+    .nav-item__link {
+        margin-right: 28px;
+    }
+    
+    .nav-item--remove {
+        display: flex;
+    }
+    
+    .nav-main__list {
+        margin: 13px 0 0 83px;
+        padding: 0 0 15px 0;
+        font-size: var(--size-h3);
+    }
+    
+    .nav-item-outside {
+        margin-right: 20px;
+    }
+    
+    .nav-side {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 380px;
+  } 
+    
+    .nav-side__item {
+        margin: 29px 0 0 20px;
+    }
+    
+    .nav-side__list {
+        margin: 0;
+    }
+    
+    .nav-social {
+        margin: 25px 0 5px 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .nav-bar {
+      display: flex;
+ 
+    }
+    
+    .nav-item__link {
+       margin-right: 44px; 
+    }
+    
+    .nav-main__list {
+        margin: 36px 0 0 40px;
+    }
+    
+    .nav-item-outside {
+        margin-right: 18px;
+    }
+    
+    .nav-side {
+       margin-left: 800px; 
+    }
+    
+    .nav-side__item {
+        margin: 24px 0 0 20px;
+    }
+    
+    .nav-social {
+       margin: 20px 0 0 20px; 
+    }
+    
+}
+

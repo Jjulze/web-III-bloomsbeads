@@ -1,0 +1,31 @@
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+h2 {
+  margin: 0;
+  font-size: var(--size-h2);
+  font-family: var(--font-head);
+  font-weight: var(--weight-bold);
+}
+
+html {
+  font-size: 10px;
+}
+
+p {
+    font-family: var(--font-body);
+    font-size: var(--size-b1);
+    font-weight: var(--weight-regular);
+    color: white;
+    line-height: 2rem;
+}
+
+/* Responsive styles */
+
+@media (min-width: 768px) {
+    h2 {
+       font-size: 3.5rem; 
+    }
+}

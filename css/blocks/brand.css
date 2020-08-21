@@ -1,0 +1,28 @@
+.brand {
+    margin: auto;
+}
+
+.brand-image {
+    display: block;
+    margin: -15px auto 0 auto;
+    width: 280px
+}
+
+@media (min-width: 768px) {
+    .brand-image {
+        margin: -15px 0 0 20px;
+        width: 360px 
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .brand {
+        margin: 0;
+        padding-bottom: 14px;
+    }
+    
+    .brand-image {
+        margin: -8px 0 0 20px;
+    }
+}

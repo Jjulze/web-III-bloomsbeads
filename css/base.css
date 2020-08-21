@@ -1,0 +1,57 @@
+a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 318px;
+}
+
+footer {
+    margin: 20px 0 0 0;
+    background-color: var(--color-teal-300);
+}
+
+header {
+    background-color: var(--color-green-200);
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+select {
+    border: 1px solid gray;
+    padding: .6rem 3rem .6rem .5rem;
+    border-radius: 2px;
+    -webkit-appearance: none;
+    background: #F2F2F2 url("../images/arrow.png") no-repeat 95% 50%;
+    box-shadow: 0 2px 2px #BFBCB8;
+    width: 132px;
+}
+
+/* Responsive styles */
+
+@media (min-width: 768px) {
+  body {
+    width: 768px;
+  }
+  footer {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) { 
+   body {
+    width: 1200px;
+  }
+}
+
