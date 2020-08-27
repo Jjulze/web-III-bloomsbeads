@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Overlock:wght@400;700;900&family=Roboto:wght@100;400;500&display=swap');
 
 /* Basic styles */
-@import url("css/variables.css");
-@import url("css/base.css");
-@import url("css/type.css");
+@import 'variables';
+@import 'base';
+@import 'type';
 
 /* Generic block styles */
-@import url("css/blocks/brand.css");
-@import url("css/blocks/nav.css");
-@import url("css/blocks/footer.css");
+@import 'brand';
+@import 'nav';
+@import 'footer';
 
 /* Page-specific styles */
-@import url("css/pages/products.css");
-@import url("css/pages/home.css");
-@import url("css/pages/product-details.css");
+@import 'products';
+@import 'home';
+@import 'product-details';
 
 :root {
     --color-cream: #EADBC1;
