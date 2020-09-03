@@ -14,7 +14,7 @@
    font-family: $font-head;
    display: flex;
    flex-flow: row wrap;
-   padding: 0 0 40px 0;
+   padding: 0 0 20px 0;
    margin: 9px 0 0 20px;
 }
 
@@ -62,7 +62,7 @@
 @media (min-width: 768px) {
 
     .nav-item__link {
-        margin-right: 28px;
+        margin-right: 38px;
     }
 
     .nav-item--remove {
@@ -70,8 +70,8 @@
     }
 
     .nav-main__list {
-        margin: 13px 0 0 83px;
-        padding: 0 0 15px 0;
+        margin: 13px 0 0 20px;
+        padding: 0 0 25px 0;
         font-size: $size-h3;
     }
 
