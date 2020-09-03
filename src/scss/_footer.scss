@@ -28,15 +28,18 @@
     width: 88px;
 }
 
-.footer-nav-list__item {
+.footer-nav-list {
+
+  &__item {
     margin: 10px 0;
 }
 
-.footer-nav-list__link {
+  &__link {
     color: $color-cream-900;
     font-size: $size-b2;
     font-family: $font-head;
     font-weight: $weight-regular;
+}
 }
 
 /* Responsive styles */

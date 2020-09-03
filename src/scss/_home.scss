@@ -4,30 +4,30 @@
     padding: 0 0 40px 0;
     width: 290px;
     margin: 0 auto;
-}
 
-.awards-images__image {
+  &__image {
     width: 133px;
     margin: 0 6px 10px 6px;
 }
 
-.awards-images__item {
+  &__item {
    list-style-type: none;
+}
 }
 
 .awards-text {
    text-align: center;
    margin: 0 20px 0 20px;
    padding: 60px 0 0 0;
-}
 
-.awards-text__header {
+  &__header {
    color: white;
 }
 
-.awards-text__content {
+  &__content {
     width: 260px;
     margin: 15px auto 66px auto;
+}
 }
 
 .featured--hide {
@@ -36,22 +36,22 @@
 
 .featured-list {
     list-style-type: none;
-}
 
-.featured-list__image {
+  &__image {
     padding: 0px;
 }
 
-.featured-list__item {
+  &__item {
     box-shadow: 0 2px 10px #BFBCB8;
 }
 
-.featured-list__text {
+  &__text {
     color: $color-body-300;
     background-color: white;
     padding: 14px;
     margin: 0 0 20px 0;
     text-align: center;
+}
 }
 
 .main-awards {
@@ -63,24 +63,24 @@
     background-image: url("../../images/main-image.png");
     background-repeat: no-repeat;
     background-position: -585px -40px;
-}
 
-.main-image__header{
+  &__header{
     color: white;
     text-align: right;
     padding: 80px 0 80px 0;
     margin-right: 20px;
 }
+}
 
 .main-products {
     width: 280px;
     margin: 55px auto 0 auto;
-}
 
-.main-products__header {
+  &__header {
     margin: 55px 0 20px 0;
     color: $color-teal-300;
     text-align: center;
+}
 }
 
 .main-quote {
@@ -112,9 +112,8 @@
     width: 280px;
     margin: auto;
     line-height: 3rem;
-}
 
-.quote-content__bold {
+  &__bold {
     font-size: 2.5rem;
     font-family: $font-head;
     font-weight: $weight-black;
@@ -123,7 +122,7 @@
     margin-top: 0;
 }
 
-.quote-content__name {
+  &__name {
     font-size: $size-b2;
     font-family: $font-head;
     font-weight: $weight-medium;
@@ -132,29 +131,30 @@
     margin: 0;
 }
 
-.quote-content__text {
+  &__text {
     font-size: $size-b2;
     font-family: $font-head;
     font-weight: $weight-medium;
     color: $color-cream-900;
     line-height: 3rem;
 }
+}
 
 .shopping-item {
     list-style-type: none;
     width: 280px;
     margin: auto;
-}
 
-.shopping-item__image {
+  &__image {
     width: 280px;
     margin: auto;
 }
 
-.shopping-item__content {
+  &__content {
     width: 280px;
     margin: 25px auto 40px auto;
     color: $color-cream-900;
+}
 }
 
 .shopping-list {
@@ -169,26 +169,26 @@
     .awards-images {
         width: 768px;
         padding: 0 0 35px 0;
-    }
 
-    .awards-images__image {
+    &__image {
         width: 152px;
         margin: 0 20px 0 20px;
+    }
     }
 
     .awards-text {
         display: flex;
-    }
 
-    .awards-text__content {
+    &__content {
         width: 430px;
         text-align: left;
         margin: 0 0 90px 17px;
     }
 
-    .awards-text__header {
+    &__header {
         width: 330px;
         text-align: right;
+    }
     }
 
     .featured--hide {
@@ -200,42 +200,42 @@
         flex-flow: row wrap;
         width: 600px;
         justify-content: space-between;
-    }
 
-    .featured-list__item {
+    &__item {
         margin-bottom: 77px;
     }
 
-    .featured-list__text {
+    &__text {
         margin: 0;
+    }
     }
 
     .main-image {
         background-position: -185px 0;
-    }
 
-    .main-image__header {
+    &__header {
         text-align: right;
         margin-left: 400px;
         padding: 85px 0;
+    }
     }
 
     .main-products{
         width: 600px;
         margin: 85px auto 0 auto;
-    }
 
-    .main-products__header {
+    &__header {
         margin-bottom: 34px;
+    }
     }
 
     .main-shopping {
         margin-bottom: 20px;
-    }
 
-    .main-shopping__header {
+    &__header {
         margin-top: 11px;
         color: $color-body-300;
+    }
     }
 
     .main-quote {
@@ -246,23 +246,23 @@
 
     .quote-content {
         width: 600px;
-    }
 
-    .quote-content__text {
+    &__text {
         font-size: $size-h3;
+    }
     }
 
     .shopping-item {
         display: flex;
         width: 600px;
-    }
 
-    .shopping-item__content {
+    &__content {
         margin: 25px 0 40px 40px;
     }
 
-    .shopping-item__image {
+    &__image {
         margin: 20px auto;
+    }
     }
 
     .shopping-list {
@@ -271,19 +271,19 @@
 
     .shopping-middle {
         order: 2;
-    }
 
-    .shopping-middle__content {
+    &__content {
         margin: 20px 40px 20px 40px;
     }
 
-    .shopping-middle__header {
+    &__header {
         text-align: right;
     }
 
-    .shopping-middle__text {
+    &__text {
         text-align: right;
     }
+  }
 }
 
 @media (min-width: 1200px) {
@@ -296,43 +296,42 @@
         width: 927px;
         margin: auto;
         padding-top: 70px;
-    }
 
-    .awards-text__content {
+    &__content {
         width: 560px;
         margin: 4px 0 123px 42px;
+    }
     }
 
     .featured-list {
         width: 1160px;
-    }
 
-    .featured-list__item {
+    &__item {
         margin-bottom: 109px;
     }
 
-    .featured-list__text {
+    &__text {
         padding: 14px 0 14px 0;
+    }
     }
 
     .main-image {
         background-position: 0;
         padding: 37px 0;
         background-size: 100%;
-    }
 
-    .main-image__header {
+    &__header {
         margin: 0 120px 0 720px;
         padding: 80px 0;
-
+    }
     }
 
     .main-products {
         width: 1160px;
-    }
 
-    .main-products__header {
+    &__header {
         margin: 55px 0 12px 0;
+    }
     }
 
     .main-quote {
@@ -350,11 +349,11 @@
     .shopping-item {
         width: 960px;
         margin: auto;
-    }
 
-    .shopping-item__content {
+    &__content {
         width: 960px;
         margin: auto 0 auto 40px;
+    }
     }
 
     .shopping-middle__content {
