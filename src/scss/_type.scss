@@ -5,9 +5,9 @@ a {
 
 h2 {
   margin: 0;
-  font-size: var(--size-h2);
-  font-family: var(--font-head);
-  font-weight: var(--weight-bold);
+  font-size: $size-h2;
+  font-family: $font-head;
+  font-weight: $weight-bold;
 }
 
 html {
@@ -15,9 +15,9 @@ html {
 }
 
 p {
-    font-family: var(--font-body);
-    font-size: var(--size-b1);
-    font-weight: var(--weight-regular);
+    font-family: $font-body;
+    font-size: $size-b1;
+    font-weight: $weight-regular;
     color: white;
     line-height: 2rem;
 }
@@ -26,6 +26,6 @@ p {
 
 @media (min-width: 768px) {
     h2 {
-       font-size: 3.5rem; 
+       font-size: 3.5rem;
     }
 }
