@@ -1,46 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Overlock:wght@400;700;900&family=Roboto:wght@100;400;500&display=swap');
 
+/* Define vars */
+@import 'vars';
+
 /* Basic styles */
-@import url("scss/variables.scss");
-@import url("scss/base.scss");
-@import url("scss/type.scss");
+@import 'base';
+@import 'type';
 
 /* Generic block styles */
-@import url("scss/brand.scss");
-@import url("scss/nav.scss");
-@import url("scss/footer.scss");
+@import 'brand';
+@import 'nav';
+@import 'footer';
 
 /* Page-specific styles */
-@import url("scss/products.scss");
-@import url("scss/home.scss");
-@import url("scss/product-details.scss");
-
-    $color-cream: #EADBC1;
-    $color-cream-800: #F7F1E6;
-    $color-cream-900: #FBF8F3;
-
-    $color-green: #ABBC73;
-    $color-green-400: #89965C;
-    $color-green-300: #677145;
-    $color-green-200: #444B2E;
-
-    $color-teal: #37B7B5;
-    $color-teal-300: #216E6D;
-
-    $color-body: #5E584D;
-    $color-body-300: #38352E;
-
-    $font-body: 'Roboto', sans-serif;
-    $font-head: 'Overlock', cursive;
-
-    $size-b1: 1.4rem;
-    $size-b2: 1.8rem;
-    $size-h2: 3.0rem;
-    $size-h3: 2.1rem;
-
-    $weight-thin: 100;
-    $weight-regular: 400;
-    $weight-medium: 500;
-    $weight-bold: 700;
-    $weight-black: 900;
-}
+@import 'products';
+@import 'home';
+@import 'product-details';

@@ -5,7 +5,7 @@
   "main": "src/index.html",
   "scripts": {
     "sync": "browser-sync start -s \"src\" -f \"src/**/*.*\"",
-    "sass": "node-sass -w --source-map=true src/styles.scss src/styles.css",
+    "sass": "node-sass -w --include-path='src/scss' --source-map=true src/styles.scss src/styles.css",
     "start": "npm-run-all -p sync sass",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
