@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock:wght@400;700;900&family=Roboto:wght@100;400;500&display=swap');
+
+/* Define vars */
+@import 'vars';
+
+/* Basic styles */
+@import 'base';
+@import 'type';
+
+/* Generic block styles */
+@import 'brand';
+@import 'nav';
+@import 'footer';
+
+/* Page-specific styles */
+@import 'products';
+@import 'home';
+@import 'product-details';
